@@ -15,6 +15,8 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Conversor de Binário para Decimal</title>
 
@@ -23,8 +25,10 @@
     <div class="card">
       <h1>Converta Binários em Decimais</h1>
       <form autocomplete=off>
-        <span>Binário:</span> 
-        <input type="text" name="valorBinario" maxlength="8" required>
+        <span>Binário:</span>
+        <div class="container">
+        <input type="text" name="valorBinario" maxlength="8" required class="input-custom">
+        </div>
         <button type="submit">Converter</button>
       </form>
 
